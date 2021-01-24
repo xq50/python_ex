@@ -1,2 +1,2 @@
 # cointerm
-Real-time cryptoc
+Real-time cryptocurren
