@@ -1,2 +1,2 @@
 # cointerm
-Real-time crypt
+Real-time cryptoc
