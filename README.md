@@ -1,2 +1,2 @@
 # cointerm
-Real-time cryptocurren
+Real-time cryptocurrency p
