@@ -1,2 +1,2 @@
 # cointerm
-Real-time cryptocurrency prices in
+Real-time cryptocurrency prices in t
