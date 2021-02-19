@@ -1,2 +1,2 @@
 # cointerm
-Real-time cryptocurrency prices in the terminal
+Real-time cryptocurrency prices in the terminal.
