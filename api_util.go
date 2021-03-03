@@ -13,3 +13,6 @@ import (
 
 var baseUrl = "https://api.coincap.io/v2/assets"
 var defaultLimit = 10
+
+type HistoryInterval struct {
+	apiCode      string
