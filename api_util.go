@@ -16,3 +16,5 @@ var defaultLimit = 10
 
 type HistoryInterval struct {
 	apiCode      string
+	timeInterval time.Duration
+}
