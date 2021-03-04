@@ -18,3 +18,6 @@ type HistoryInterval struct {
 	apiCode      string
 	timeInterval time.Duration
 }
+
+var (
+	MINUTES_1  HistoryInterval = HistoryInterval{"m1", time.Minute}
