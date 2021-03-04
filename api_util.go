@@ -21,3 +21,7 @@ type HistoryInterval struct {
 
 var (
 	MINUTES_1  HistoryInterval = HistoryInterval{"m1", time.Minute}
+	MINUTES_5  HistoryInterval = HistoryInterval{"m5", time.Minute * 5}
+	MINUTES_15 HistoryInterval = HistoryInterval{"m15", time.Minute * 15}
+	MINUTES_30 HistoryInterval = HistoryInterval{"m30", time.Minute * 30}
+	HOURS_1    HistoryInterval = HistoryInterval{"h1", time.Hour}
