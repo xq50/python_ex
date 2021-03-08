@@ -30,3 +30,5 @@ var (
 	HOURS_12   HistoryInterval = HistoryInterval{"h12", time.Hour * 12}
 	DAYS_1     HistoryInterval = HistoryInterval{"d1", time.Hour * 24}
 )
+
+type AssetJson struct {
