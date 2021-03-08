@@ -28,3 +28,5 @@ var (
 	HOURS_2    HistoryInterval = HistoryInterval{"h2", time.Hour * 2}
 	HOURS_6    HistoryInterval = HistoryInterval{"h6", time.Hour * 6}
 	HOURS_12   HistoryInterval = HistoryInterval{"h12", time.Hour * 12}
+	DAYS_1     HistoryInterval = HistoryInterval{"d1", time.Hour * 24}
+)
