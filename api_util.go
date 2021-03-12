@@ -32,3 +32,5 @@ var (
 )
 
 type AssetJson struct {
+	Id                string
+	Rank              string
