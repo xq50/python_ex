@@ -34,3 +34,6 @@ var (
 type AssetJson struct {
 	Id                string
 	Rank              string
+	Symbol            string
+	Name              string
+	Supply            string
