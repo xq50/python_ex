@@ -37,3 +37,6 @@ type AssetJson struct {
 	Symbol            string
 	Name              string
 	Supply            string
+	MaxSupply         string
+	MarketCapUsd      string
+	VolumeUsd24Hr     string
