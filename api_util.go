@@ -44,3 +44,5 @@ type AssetJson struct {
 	ChangePercent24Hr string
 	Vwap24Hr          string
 }
+
+type SingleAssetJson struct {
