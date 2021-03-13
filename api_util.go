@@ -40,3 +40,7 @@ type AssetJson struct {
 	MaxSupply         string
 	MarketCapUsd      string
 	VolumeUsd24Hr     string
+	PriceUsd          string
+	ChangePercent24Hr string
+	Vwap24Hr          string
+}
