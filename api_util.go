@@ -49,3 +49,7 @@ type SingleAssetJson struct {
 	Data      AssetJson
 	Timestamp int64
 }
+
+type AssetsJson struct {
+	Data      []AssetJson
+	Timestamp int64
