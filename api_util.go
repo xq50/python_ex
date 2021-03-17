@@ -54,3 +54,6 @@ type AssetsJson struct {
 	Data      []AssetJson
 	Timestamp int64
 }
+
+type PriceJson struct {
+	PriceUsd          string
