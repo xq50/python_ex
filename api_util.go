@@ -53,3 +53,4 @@ type SingleAssetJson struct {
 type AssetsJson struct {
 	Data      []AssetJson
 	Timestamp int64
+}
