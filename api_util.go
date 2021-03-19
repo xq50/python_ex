@@ -57,3 +57,6 @@ type AssetsJson struct {
 
 type PriceJson struct {
 	PriceUsd          string
+	Time              int64
+	CirculatingSupply string
+	Date              string
