@@ -66,3 +66,7 @@ type HistoryJson struct {
 	Data      []PriceJson
 	Timestamp int64
 }
+
+type History struct {
+	interval  HistoryInterval
+	startTime time.Time
