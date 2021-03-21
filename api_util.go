@@ -63,3 +63,6 @@ type PriceJson struct {
 }
 
 type HistoryJson struct {
+	Data      []PriceJson
+	Timestamp int64
+}
