@@ -60,3 +60,6 @@ type PriceJson struct {
 	Time              int64
 	CirculatingSupply string
 	Date              string
+}
+
+type HistoryJson struct {
