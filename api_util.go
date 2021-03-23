@@ -71,3 +71,4 @@ type History struct {
 	interval  HistoryInterval
 	startTime time.Time
 	prices    []float64
+}
