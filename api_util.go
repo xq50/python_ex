@@ -79,3 +79,5 @@ func getJson(url string, target interface{}) error {
 		return err
 	}
 	defer r.Body.Close()
+
+	body, err := ioutil.ReadAll(r.Body)
