@@ -72,3 +72,6 @@ type History struct {
 	startTime time.Time
 	prices    []float64
 }
+
+func getJson(url string, target interface{}) error {
+	r, err := http.Get(url)
