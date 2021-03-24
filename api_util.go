@@ -76,3 +76,6 @@ type History struct {
 func getJson(url string, target interface{}) error {
 	r, err := http.Get(url)
 	if err != nil {
+		return err
+	}
+	defer r.Body.Close()
