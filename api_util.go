@@ -88,3 +88,5 @@ func getJson(url string, target interface{}) error {
 	if err != nil {
 		return err
 	}
+	return nil
+}
