@@ -85,3 +85,6 @@ func getJson(url string, target interface{}) error {
 		return err
 	}
 	err = json.Unmarshal(body, target)
+	if err != nil {
+		return err
+	}
