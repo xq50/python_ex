@@ -90,3 +90,5 @@ func getJson(url string, target interface{}) error {
 	}
 	return nil
 }
+
+func GetAssetById(id string) (*SingleAssetJson, error) {
