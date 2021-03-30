@@ -94,3 +94,5 @@ func getJson(url string, target interface{}) error {
 func GetAssetById(id string) (*SingleAssetJson, error) {
 	var resp SingleAssetJson
 	err := getJson(baseUrl+"/"+id, &resp)
+	if err != nil {
+		return nil, err
