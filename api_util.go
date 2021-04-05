@@ -101,3 +101,6 @@ func GetAssetById(id string) (*SingleAssetJson, error) {
 }
 
 func GetAssets(limit int) (*AssetsJson, error) {
+	var resp AssetsJson
+	err := getJson(baseUrl+"?limit="+strconv.Itoa(limit), &resp)
+	if err != nil {
