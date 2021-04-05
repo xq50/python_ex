@@ -96,3 +96,8 @@ func GetAssetById(id string) (*SingleAssetJson, error) {
 	err := getJson(baseUrl+"/"+id, &resp)
 	if err != nil {
 		return nil, err
+	}
+	return &resp, nil
+}
+
+func GetAssets(limit int) (*AssetsJson, error) {
