@@ -104,3 +104,9 @@ func GetAssets(limit int) (*AssetsJson, error) {
 	var resp AssetsJson
 	err := getJson(baseUrl+"?limit="+strconv.Itoa(limit), &resp)
 	if err != nil {
+		return nil, err
+	}
+	return &resp, nil
+}
+
+// Returns nil if the search yielded no results
