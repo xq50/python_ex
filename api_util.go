@@ -110,3 +110,5 @@ func GetAssets(limit int) (*AssetsJson, error) {
 }
 
 // Returns nil if the search yielded no results
+func GetAssetBySymbolSearch(sym string) (*SingleAssetJson, error) {
+	var resp AssetsJson
