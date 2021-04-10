@@ -116,3 +116,5 @@ func GetAssetBySymbolSearch(sym string) (*SingleAssetJson, error) {
 	err := getJson(fmt.Sprintf("%s?search=%s&limit=%d", baseUrl, sym, defaultLimit), &resp)
 	if err != nil {
 		return nil, err
+	}
+	for _, asset := range resp.Data {
