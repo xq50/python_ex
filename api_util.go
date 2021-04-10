@@ -112,3 +112,6 @@ func GetAssets(limit int) (*AssetsJson, error) {
 // Returns nil if the search yielded no results
 func GetAssetBySymbolSearch(sym string) (*SingleAssetJson, error) {
 	var resp AssetsJson
+	sym = strings.ToUpper(sym)
+	err := getJson(fmt.Sprintf("%s?search=%s&limit=%d", baseUrl, sym, defaultLimit), &resp)
+	if err != nil {
