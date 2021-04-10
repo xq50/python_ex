@@ -118,3 +118,7 @@ func GetAssetBySymbolSearch(sym string) (*SingleAssetJson, error) {
 		return nil, err
 	}
 	for _, asset := range resp.Data {
+		if strings.ToUpper(asset.Symbol) == sym {
+			return &SingleAssetJson{asset, resp.Timestamp}, nil
+		}
+	}
