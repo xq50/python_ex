@@ -115,3 +115,4 @@ func GetAssetBySymbolSearch(sym string) (*SingleAssetJson, error) {
 	sym = strings.ToUpper(sym)
 	err := getJson(fmt.Sprintf("%s?search=%s&limit=%d", baseUrl, sym, defaultLimit), &resp)
 	if err != nil {
+		return nil, err
