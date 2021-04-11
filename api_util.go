@@ -122,3 +122,5 @@ func GetAssetBySymbolSearch(sym string) (*SingleAssetJson, error) {
 			return &SingleAssetJson{asset, resp.Timestamp}, nil
 		}
 	}
+	return nil, nil
+}
