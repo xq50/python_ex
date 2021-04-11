@@ -128,3 +128,5 @@ func GetAssetBySymbolSearch(sym string) (*SingleAssetJson, error) {
 func getHistory(id string, interval HistoryInterval, start time.Time) (*History, error) {
 	endTimeMs := time.Now().Unix() * 1000
 	startTimeMs := start.Unix() * 1000
+	var resp HistoryJson
+	url := fmt.Sprintf("%s/%s/history?interval=%s&start=%d&end=%d", baseUrl, id, interval.apiCode, startTimeMs, endTimeMs)
