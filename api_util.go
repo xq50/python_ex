@@ -124,3 +124,5 @@ func GetAssetBySymbolSearch(sym string) (*SingleAssetJson, error) {
 	}
 	return nil, nil
 }
+
+func getHistory(id string, interval HistoryInterval, start time.Time) (*History, error) {
