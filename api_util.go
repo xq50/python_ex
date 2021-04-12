@@ -130,3 +130,5 @@ func getHistory(id string, interval HistoryInterval, start time.Time) (*History,
 	startTimeMs := start.Unix() * 1000
 	var resp HistoryJson
 	url := fmt.Sprintf("%s/%s/history?interval=%s&start=%d&end=%d", baseUrl, id, interval.apiCode, startTimeMs, endTimeMs)
+	if err := getJson(url, &resp); err != nil {
+		return nil, err
