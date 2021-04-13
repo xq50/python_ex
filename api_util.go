@@ -132,3 +132,9 @@ func getHistory(id string, interval HistoryInterval, start time.Time) (*History,
 	url := fmt.Sprintf("%s/%s/history?interval=%s&start=%d&end=%d", baseUrl, id, interval.apiCode, startTimeMs, endTimeMs)
 	if err := getJson(url, &resp); err != nil {
 		return nil, err
+	}
+
+	var prices []float64
+	for _, x := range resp.Data {
+		temp, err := strconv.ParseFloat(x.PriceUsd, 64)
+		if err != nil {
