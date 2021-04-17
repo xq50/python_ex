@@ -138,3 +138,6 @@ func getHistory(id string, interval HistoryInterval, start time.Time) (*History,
 	for _, x := range resp.Data {
 		temp, err := strconv.ParseFloat(x.PriceUsd, 64)
 		if err != nil {
+			return nil, err
+		}
+		prices = append(prices, temp)
