@@ -143,3 +143,4 @@ func getHistory(id string, interval HistoryInterval, start time.Time) (*History,
 		prices = append(prices, temp)
 	}
 	startTime := time.Unix(resp.Data[0].Time/1000, 0)
+	return &History{interval, startTime, prices}, nil
