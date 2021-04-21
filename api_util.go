@@ -159,3 +159,5 @@ func GetHistoryDay(id string) (*History, error) {
 	start := time.Now().Add(time.Hour * -24)
 	hist, err := getHistory(id, MINUTES_1, start)
 	if err != nil {
+		return nil, err
+	}
