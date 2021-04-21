@@ -150,3 +150,7 @@ func GetHistoryHour(id string) (*History, error) {
 	start := time.Now().Add(time.Hour * -1)
 	hist, err := getHistory(id, MINUTES_1, start)
 	if err != nil {
+		return nil, err
+	}
+	return hist, nil
+}
