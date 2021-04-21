@@ -161,3 +161,5 @@ func GetHistoryDay(id string) (*History, error) {
 	if err != nil {
 		return nil, err
 	}
+	return hist, nil
+}
