@@ -1,1 +1,1 @@
-module github.co
+module github.com/av
