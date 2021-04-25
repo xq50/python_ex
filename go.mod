@@ -1,1 +1,1 @@
-module github
+module github.co
