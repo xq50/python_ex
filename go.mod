@@ -1,1 +1,1 @@
-module gi
+module git
