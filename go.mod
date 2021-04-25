@@ -1,1 +1,1 @@
-module git
+module github
