@@ -1,1 +1,3 @@
-module github.com/avivhaber/cointe
+module github.com/avivhaber/cointerm
+
+go
