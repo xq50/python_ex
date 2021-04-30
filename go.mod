@@ -1,3 +1,3 @@
 module github.com/avivhaber/cointerm
 
-go
+go 1.14
