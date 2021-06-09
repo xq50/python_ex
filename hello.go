@@ -7,4 +7,4 @@ import (
 	"strconv"
 	"strings"
 
-	ui "github.com/gizak/termui/
+	ui "github.com/gizak/termui/v3
