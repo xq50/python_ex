@@ -8,4 +8,4 @@ import (
 	"strings"
 
 	ui "github.com/gizak/termui/v3"
-	"github.com/gizak/termu
+	"github.com/gizak/termui/
