@@ -11,4 +11,4 @@ import (
 	"github.com/gizak/termui/v3/widgets"
 )
 
-func formatB
+func formatBig
