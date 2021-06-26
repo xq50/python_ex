@@ -11,4 +11,4 @@ import (
 	"github.com/gizak/termui/v3/widgets"
 )
 
-func formatBigNum(
+func formatBigNum(s s
