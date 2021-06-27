@@ -12,3 +12,4 @@ import (
 )
 
 func formatBigNum(s string) string {
+	nu
