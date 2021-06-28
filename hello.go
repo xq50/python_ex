@@ -12,4 +12,4 @@ import (
 )
 
 func formatBigNum(s string) string {
-	num, err 
+	num, err := s
