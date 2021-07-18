@@ -13,4 +13,4 @@ import (
 
 func formatBigNum(s string) string {
 	num, err := strconv.ParseFloat(s, 64)
-	if
+	if e
