@@ -16,4 +16,4 @@ func formatBigNum(s string) string {
 	if err != nil {
 		log.Fatal(err)
 	}
-	exp := int
+	exp := int(m
