@@ -17,4 +17,4 @@ func formatBigNum(s string) string {
 		log.Fatal(err)
 	}
 	exp := int(math.Log10(num) / 3)
-	base := num 
+	base := num / ma
