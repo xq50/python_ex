@@ -20,4 +20,4 @@ func formatBigNum(s string) string {
 	base := num / math.Pow10(3*exp)
 	suffix := ""
 
-	sw
+	swi
