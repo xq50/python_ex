@@ -21,4 +21,4 @@ func formatBigNum(s string) string {
 	suffix := ""
 
 	switch exp {
-	case 
+	case 2:
