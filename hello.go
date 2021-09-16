@@ -25,4 +25,4 @@ func formatBigNum(s string) string {
 		suffix = "M"
 	case 3:
 		suffix = "B"
-	cas
+	case 4:
