@@ -28,4 +28,4 @@ func formatBigNum(s string) string {
 	case 4:
 		suffix = "T"
 	}
-	re
+	return
