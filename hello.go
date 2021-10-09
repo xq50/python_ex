@@ -28,4 +28,4 @@ func formatBigNum(s string) string {
 	case 4:
 		suffix = "T"
 	}
-	return fmt.Sprintf("%.2f%s", base, s
+	return fmt.Sprintf("%.2f%s", base, suff
