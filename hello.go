@@ -29,3 +29,4 @@ func formatBigNum(s string) string {
 		suffix = "T"
 	}
 	return fmt.Sprintf("%.2f%s", base, suffix)
+}
