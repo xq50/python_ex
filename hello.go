@@ -31,4 +31,4 @@ func formatBigNum(s string) string {
 	return fmt.Sprintf("%.2f%s", base, suffix)
 }
 
-fun
+func m
