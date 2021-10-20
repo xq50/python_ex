@@ -32,4 +32,4 @@ func formatBigNum(s string) string {
 }
 
 func main() {
-	i
+	if e
