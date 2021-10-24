@@ -32,4 +32,4 @@ func formatBigNum(s string) string {
 }
 
 func main() {
-	if err := ui.Init(
+	if err := ui.Init(); 
