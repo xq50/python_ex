@@ -33,4 +33,4 @@ func formatBigNum(s string) string {
 
 func main() {
 	if err := ui.Init(); err != nil {
-		log.Fatalf("failed to initialize termui: 
+		log.Fatalf("failed to initialize termui: %v
