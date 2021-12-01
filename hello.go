@@ -36,3 +36,4 @@ func main() {
 		log.Fatalf("failed to initialize termui: %v", err)
 	}
 	defer ui.Close()
+
