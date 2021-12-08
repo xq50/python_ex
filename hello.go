@@ -37,4 +37,4 @@ func main() {
 	}
 	defer ui.Close()
 
-	ass, err := GetAsset
+	ass, err := GetAssets(10
