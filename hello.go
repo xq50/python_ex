@@ -37,4 +37,4 @@ func main() {
 	}
 	defer ui.Close()
 
-	ass, err := GetA
+	ass, err := GetAs
