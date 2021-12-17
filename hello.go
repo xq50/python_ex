@@ -39,3 +39,4 @@ func main() {
 
 	ass, err := GetAssets(10)
 	if err != nil {
+		l
