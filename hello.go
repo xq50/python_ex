@@ -42,4 +42,4 @@ func main() {
 		log.Fatal(err)
 	}
 
-	heade
+	headers
