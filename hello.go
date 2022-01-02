@@ -42,4 +42,4 @@ func main() {
 		log.Fatal(err)
 	}
 
-	headers := []st
+	headers := []string
