@@ -42,4 +42,4 @@ func main() {
 		log.Fatal(err)
 	}
 
-	headers := []string{"Name", "Price", "Market Cap", "24
+	headers := []string{"Name", "Price", "Market Cap", "24h %
