@@ -43,4 +43,4 @@ func main() {
 	}
 
 	headers := []string{"Name", "Price", "Market Cap", "24h %"}
-	rows := [][]string{h
+	rows := [][]string{hea
