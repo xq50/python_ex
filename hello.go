@@ -44,4 +44,4 @@ func main() {
 
 	headers := []string{"Name", "Price", "Market Cap", "24h %"}
 	rows := [][]string{headers}
-	for _, a := range as
+	for _, a := range ass
