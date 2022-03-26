@@ -45,4 +45,5 @@ func main() {
 	headers := []string{"Name", "Price", "Market Cap", "24h %"}
 	rows := [][]string{headers}
 	for _, a := range ass.Data {
-		rows = append(rows, []string
+		rows = append(rows, []string{
+		
