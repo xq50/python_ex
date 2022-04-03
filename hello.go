@@ -46,4 +46,4 @@ func main() {
 	rows := [][]string{headers}
 	for _, a := range ass.Data {
 		rows = append(rows, []string{
-			fmt.Spri
+			fmt.Sprin
