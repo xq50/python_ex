@@ -47,4 +47,4 @@ func main() {
 	for _, a := range ass.Data {
 		rows = append(rows, []string{
 			fmt.Sprintf("%s (%s)", a.Name, a.Symbol),
-	
+			a
