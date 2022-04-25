@@ -48,4 +48,4 @@ func main() {
 		rows = append(rows, []string{
 			fmt.Sprintf("%s (%s)", a.Name, a.Symbol),
 			a.PriceUsd[:7],
-			f
+			form
