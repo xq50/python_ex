@@ -49,4 +49,4 @@ func main() {
 			fmt.Sprintf("%s (%s)", a.Name, a.Symbol),
 			a.PriceUsd[:7],
 			formatBigNum(a.MarketCapUsd),
-			a.ChangePercent24Hr[:strings.Index
+			a.ChangePercent24Hr[:strings.Index(a.Ch
