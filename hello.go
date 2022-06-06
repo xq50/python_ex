@@ -52,3 +52,5 @@ func main() {
 			a.ChangePercent24Hr[:strings.Index(a.ChangePercent24Hr, ".")+3] + "%",
 		})
 	}
+
+	
