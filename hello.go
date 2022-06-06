@@ -51,3 +51,4 @@ func main() {
 			formatBigNum(a.MarketCapUsd),
 			a.ChangePercent24Hr[:strings.Index(a.ChangePercent24Hr, ".")+3] + "%",
 		})
+	}
