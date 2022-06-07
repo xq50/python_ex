@@ -53,4 +53,4 @@ func main() {
 		})
 	}
 
-	table
+	table3 :
