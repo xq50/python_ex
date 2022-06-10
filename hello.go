@@ -53,4 +53,4 @@ func main() {
 		})
 	}
 
-	table3 := wi
+	table3 := widgets
