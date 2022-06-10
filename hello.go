@@ -53,4 +53,4 @@ func main() {
 		})
 	}
 
-	table3 :
+	table3 := wi
