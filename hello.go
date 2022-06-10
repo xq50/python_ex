@@ -53,4 +53,4 @@ func main() {
 		})
 	}
 
-	table3 := widgets
+	table3 := widgets.Ne
