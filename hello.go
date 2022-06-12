@@ -53,4 +53,4 @@ func main() {
 		})
 	}
 
-	table3 := widgets.NewTable
+	table3 := widgets.NewTable(
