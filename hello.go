@@ -54,3 +54,4 @@ func main() {
 	}
 
 	table3 := widgets.NewTable()
+	tab
