@@ -54,4 +54,4 @@ func main() {
 	}
 
 	table3 := widgets.NewTable()
-	table3
+	table3.R
