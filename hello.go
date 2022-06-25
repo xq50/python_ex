@@ -55,4 +55,4 @@ func main() {
 
 	table3 := widgets.NewTable()
 	table3.Rows = rows
-	table
+	table3.T
