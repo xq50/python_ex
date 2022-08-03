@@ -57,4 +57,4 @@ func main() {
 	table3.Rows = rows
 	table3.TextStyle = ui.NewStyle(ui.ColorWhite)
 	table3.RowSeparator = true
-	table3.B
+	table3.Bor
