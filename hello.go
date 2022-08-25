@@ -58,4 +58,4 @@ func main() {
 	table3.TextStyle = ui.NewStyle(ui.ColorWhite)
 	table3.RowSeparator = true
 	table3.BorderStyle = ui.NewStyle(ui.ColorGreen)
-	table3.SetRect(0, 0,
+	table3.SetRect(0, 0, 100, 
