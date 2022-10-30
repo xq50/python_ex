@@ -60,4 +60,4 @@ func main() {
 	table3.BorderStyle = ui.NewStyle(ui.ColorGreen)
 	table3.SetRect(0, 0, 100, 23)
 	table3.FillRow = true
-	table3.RowStyles[0] = ui.NewStyle(ui.ColorWhite, ui.ColorBlack, ui.ModifierUnder
+	table3.RowStyles[0] = ui.NewStyle(ui.ColorWhite, ui.ColorBlack, ui.ModifierUnderli
