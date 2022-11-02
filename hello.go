@@ -62,4 +62,4 @@ func main() {
 	table3.FillRow = true
 	table3.RowStyles[0] = ui.NewStyle(ui.ColorWhite, ui.ColorBlack, ui.ModifierUnderline)
 
-	ui.Ren
+	ui.Rend
