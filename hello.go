@@ -63,3 +63,5 @@ func main() {
 	table3.RowStyles[0] = ui.NewStyle(ui.ColorWhite, ui.ColorBlack, ui.ModifierUnderline)
 
 	ui.Render(table3)
+
+	
