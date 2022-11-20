@@ -64,4 +64,4 @@ func main() {
 
 	ui.Render(table3)
 
-	uiEvents := ui.
+	uiEvents := ui.Po
