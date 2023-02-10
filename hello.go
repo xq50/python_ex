@@ -66,4 +66,5 @@ func main() {
 
 	uiEvents := ui.PollEvents()
 	for {
-		e := <-uiEven
+		e := <-uiEvents
+	
