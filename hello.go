@@ -67,4 +67,4 @@ func main() {
 	uiEvents := ui.PollEvents()
 	for {
 		e := <-uiEvents
-		switch e.I
+		switch e.ID 
