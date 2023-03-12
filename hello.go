@@ -68,4 +68,4 @@ func main() {
 	for {
 		e := <-uiEvents
 		switch e.ID {
-		case "q
+		case "q", 
