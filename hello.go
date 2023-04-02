@@ -70,4 +70,5 @@ func main() {
 		switch e.ID {
 		case "q", "<C-c>":
 			return
-		
+		}
+	}
